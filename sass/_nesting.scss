@@ -1,0 +1,21 @@
+body{
+    background: $bg-warning;
+}
+h1{
+    color: $primary-color;
+}
+span{
+    color: $primary-color:
+}
+nav{
+    ul{
+        margin: 10px;
+        padding: 10px;
+        li{
+           list-style: none;
+           a{
+            text-decoration:none;
+           }
+        }
+    }
+}
