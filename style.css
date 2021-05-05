@@ -1,3 +1,34 @@
-@import url("./sass/variables");
-@import url("./sass/_nesting.scss");
+nav ul {
+  margin: 10px;
+  padding: 10px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.div1 {
+  height: 100px;
+  width: 100px;
+  background-color: deeppink;
+  border-radius: 10px;
+}
+
+.div2 {
+  height: 200px;
+  width: 200px;
+  background-color: deeppink;
+  border-radius: 20px;
+}
+
+.div3 {
+  height: 300px;
+  width: 300px;
+  background-color: deeppink;
+  border-radius: 30px;
+}
 /*# sourceMappingURL=style.css.map */

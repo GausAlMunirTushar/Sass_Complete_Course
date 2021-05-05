@@ -1,0 +1,9 @@
+@mixin height-width($value){
+    height: $value;
+    width: $value;
+}
+@mixin br-radius($value){
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+}
