@@ -2,17 +2,17 @@
 @import "nesting";
 @import "mixins";
 .div1{
-    @include height-width(100px)
+    @include height-width(100px);
     background-color: $bg-color;
     @include br-radius(10px);
 }
 .div2{
-    @include height-width(200px)
+    @include height-width(200px);
     background-color: $bg-color;
     @include br-radius(20px);
 }
 .div3{
-    @include height-width(300px)
+    @include height-width(300px);
     background-color: $bg-color;
     @include br-radius(30px);
 }
