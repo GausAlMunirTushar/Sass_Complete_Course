@@ -1,0 +1,13 @@
+@mixin margin($position, $unit){
+    margin-#{$position}: $unit +px;
+}
+.text{
+    @include margin(right, 20);
+}
+@mixin set-icon($name){
+    .icon-#{$name}{
+    background-color: $name;
+    }
+}
+    
+@include set-icon(image)
