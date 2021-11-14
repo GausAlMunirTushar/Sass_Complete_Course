@@ -6,6 +6,28 @@ nav{
            list-style: none;
            a{
             text-decoration:none;
+            &:hover{
+                color: red;
+            }
+           }
+        }
+    }
+}
+
+/* SASS Nesting Practices */
+.menu {
+    background-color: black;
+    color: white;
+    ul{
+        margin: 10px;
+        padding: 10px;
+        li{
+           list-style: none;
+           a{
+            text-decoration:none;
+            &:hover{
+                color: red;
+            }
            }
         }
     }
