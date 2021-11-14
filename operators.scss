@@ -1,0 +1,15 @@
+.abc{
+    padding: 10px == 0px;
+    padding: 10px != 0px;
+    padding: (10px 10px 20px) == (0px 0px 0px); // false
+    margin: not 10px == 10px; // false
+}
+$var1: 10px;
+$var2: 20px;
+.xyz{
+    font-size: $var1 + $var2;
+}
+$num: 10;
+.px{
+    font-size:  $num + px
+}
